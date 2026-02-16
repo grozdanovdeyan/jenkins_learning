@@ -4,7 +4,7 @@ pipeline {
     stage('MyFirstBuild') {
       steps {
         echo 'This is a Build Test'
-        sh 'sh ls -la'
+        sh 'ls -la'
       }
     }
 
